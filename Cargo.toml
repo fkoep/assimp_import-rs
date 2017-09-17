@@ -1,0 +1,20 @@
+[package]
+name = "assimp_import"
+version = "0.1.0"
+authors = ["Felix Köpge <fkoep@mailbox.org>"]
+license = "MIT"
+
+description = "Rust bindings for assimp's import API."
+#documentation = "https://docs.rs/assimp-import"
+homepage = "https://github.com/fkoep/assimp_import-rs"
+repository = "https://github.com/fkoep/assimp_import-rs"
+#readme = "README.md"
+keywords = ["3d", "asset", "assimp", "bindings", "ffi", "game", "gamedev", "importer", "model"]
+categories = ["api-bindings", "multimedia"]
+
+exclude = ["assets/"]
+
+[dependencies]
+bitflags = "0.7"
+libc = "0.2"
+
